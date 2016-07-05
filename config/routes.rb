@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get 'pages/index'
+  get 'pages/landing'
   post 'pages/contact'
 
   # The priority is based upon order of creation: first created -> highest priority.
