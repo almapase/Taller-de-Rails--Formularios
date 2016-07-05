@@ -15,4 +15,6 @@
 //= require bootstrap
 //= require jquery.easing
 //= require jquery.magnific-popup
+//= require scrollreveal
+//= require creative
 //= require turbolinks

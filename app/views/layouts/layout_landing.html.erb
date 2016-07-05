@@ -58,12 +58,7 @@
 
   <%= yield %>
 
-    <!-- Plugin JavaScript -->
-    <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> -->
-    <script src=<%= asset_path("scrollreveal.js") %>></script>
-    <!-- <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script> -->
-
-    <!-- Theme JavaScript -->
-    <script src=<%= asset_path("creative.js") %>></script>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    
 </body>
 </html>
