@@ -1,6 +1,6 @@
 <p><%= flash[:notice] %></p>
 <h1>Alex Pacheco - Almapase</h1>
-<form>
+<form role="form" action=<%= pages_contact_path %> method="post">
   <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
   <div class="form-group">
     <label for="InputName">Name</label>
